@@ -2,9 +2,9 @@
 #include "account.h"
 
 
-typedef struct  {
+typedef struct {
     char name[buffer_size];
-    char password[32];
+    char password[3200];
     float amount;
 
 } account2;
@@ -29,9 +29,10 @@ void create() {
         ac.password[i++] = ch;
         printf("*");
     }
+    strcpy(ac.password, SHA256(ac.password));
 
     char store[buffer_size];
-    snprintf(store, sizeof(store), "Name: %s, HashedPassword: %s\n", ac.name,ac.password);
+    snprintf(store, sizeof(store), "Name: %s, HashedPassword: %s\n", ac.name, ac.password);
 //    printf("%s\n%s\n%s",ac.name,ac.password,store);
-    fprintf(fp,store);
+    fprintf(fp, store);
 }

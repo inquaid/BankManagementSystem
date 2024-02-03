@@ -4,7 +4,7 @@ bool FindIdPass(char *username, char *UserPassWord) {
 
     FILE *fp = fopen("Database.txt", "r");
 
-    char DBname[50]="", DBpass[32]="";
+    char DBname[50]="", DBpass[3200]="";
     char buffer[buffer_size];
 
     while (fgets(buffer, buffer_size, fp) != NULL) {

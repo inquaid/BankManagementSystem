@@ -5,7 +5,7 @@
 
 typedef struct {
     char name[buffer_size];
-    char password[32];
+    char password[3200];
     float amount;
 
 }account;
@@ -33,6 +33,9 @@ void login() {
         printf("*");
 
     }
+
+    strcpy(ac.password, SHA256(ac.password));
+
     if (FindIdPass(ac.name, ac.password)) {
         printf("\nFound\n");
     } else {

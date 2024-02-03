@@ -18,7 +18,8 @@ void Display(void) {
             login();
             break;
         case 2:
-            printf("New account created\n");
+            create();
+            printf("\nNew account created\n");
             break;
 
         case 3:

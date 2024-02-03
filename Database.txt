@@ -1,3 +1,4 @@
-Name: Azmain, HashedPassword: 230218
-Name: tuju, HashedPassword: 12345
-Name: seam, HashedPassword: rashi
+Name: azmain, HashedPassword: tje
+Name: azmain, HashedPassword: trjo
+Name: seam, HashedPassword: f6d2afdfcae701ba717eea96a12613a3e7ffd21200eec599f4791438b09f0778
+Name: seam, HashedPassword: 00e987128dfe081a06deaf11dc1a4edd6020b43a0e2f51c5b0bb5bf3ed027574

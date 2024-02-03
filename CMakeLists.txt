@@ -11,4 +11,6 @@ add_executable(BankManagementSystem main.c
         Login.h
         account.h
         SearchOnDatabase.h
-        CreateAccount.h)
+        CreateAccount.h
+        ShaTwoFiftySix.h
+)

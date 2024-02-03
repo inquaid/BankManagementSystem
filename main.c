@@ -1,27 +1,32 @@
-//#include "MyFunctions.h"
+
 #include "InterFace.h"
-//#include "header.h"
-//void HASH(const char *str, unsigned char hash[SHA256_DIGEST_LENGTH]) {
-//
-//
-//
-//    // The message to hash
-//    const char *message = str;
-//
-//    // Buffer to store the result of SHA256
-////    unsigned char hash[SHA256_DIGEST_LENGTH];
-//
-//    // Using SHA256() function to compute the hash of the message
-//    SHA256((unsigned char *) message, strlen(message), hash);
-//
-//
-//}
+
+typedef struct {
+    char name[buffer_size];
+    char password[3222];
+    float amount;
+
+} acnt;
 
 
 int main() {
+//    acnt ac;
+//    char store[2255] = "AXM";
+//    strcpy(ac.password, store);
+//
+////    printf("%s", ac.password);
+////char *temp = SHA256(ac.password);
+//    strcpy(ac.password, SHA256(ac.password));
+//
+//    printf("%s", ac.password);
 
+//char data[] = "Tonti";
+//printf("%s",output);
+//    Display();
+//char name[] = "AZmain";
+//char *output = SHA256(name);
+//    printf("%s",output);
     Display();
-
     return 0;
 }
 

@@ -72,6 +72,3 @@ Contributions to the Bank Management System project are welcome. To contribute:
 ## License
 
 This project is licensed under the [Your License Name] License - see the LICENSE file for details.
-```
-
-Replace `[Your License Name]` with the actual license type you choose for your project. Adjust the installation, usage, and contributing sections based on your specific project setup and requirements.

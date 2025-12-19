@@ -3,7 +3,7 @@
 #include <string.h>
 //#include <openssl/sha.h>
 #include <stdlib.h>
-#include <conio.h>
+#include <ncurses.h>
 #include "ShaTwoFiftySix.h"
 
 //#include "sha256.h"

@@ -1,3 +1,3 @@
-D:/program/Git to Github/BankManagementSystem/cmake-build-debug/CMakeFiles/BankManagementSystem.dir
-D:/program/Git to Github/BankManagementSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/program/Git to Github/BankManagementSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/turjo-pop/Documents/BankManagementSystem/cmake-build-debug/CMakeFiles/BankManagementSystem.dir
+/home/turjo-pop/Documents/BankManagementSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/turjo-pop/Documents/BankManagementSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
